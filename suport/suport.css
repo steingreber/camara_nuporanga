@@ -1,0 +1,205 @@
+body{
+	/*background:#ADE4C7;*/
+	font-family:verdana,arial,helvetica,sans-serif;
+}
+.cabecalho {
+	text-align: center;
+}
+.rodape {
+	text-align: center;
+}
+.ms_align {
+	text-align: center;
+}
+.menu_superior {
+	background-image : url(imagens/ms_fundo.gif);
+	background-color : #ffffff;
+	width: 743px;
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	height: 30px;
+}
+.ms_border {
+	text-align: center;
+}
+.ms_href {
+	font : bold 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #546D88;
+}
+.ms_href a{
+	text-decoration: none;
+	color: #546D88;
+}
+.ms_href a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+.corpo {
+	text-align: center;
+}
+.corpotb {
+	width: 743px;
+}
+.box {
+	border-bottom : 1px solid #C6CFD9;
+	border-top : 1px solid #C6CFD9;
+	border-right : 1px solid #C6CFD9;
+	border-left : 1px solid #C6CFD9;
+	background-color : #F9FAFB;
+}
+.menu {
+	width: 179px;
+}
+.menu_fundo {
+	background-image : url(imagens/menu_fundo.gif);
+}
+.menu_opcoes {
+	padding : 0px 6px 0px 6px;
+}
+.menu_opt a {
+	text-decoration: none;
+	padding : 6px 2px 6px 2px;
+	font : bold 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #315C87;
+	border-bottom : 1px solid #E5EAEF;
+	border-top : 1px solid #E5EAEF;
+	border-right : 1px solid #E5EAEF;
+	border-left : 1px solid #E5EAEF;
+	width: 162px;
+}
+.menu_opt a:hover {
+	width: 162px;
+	padding : 6px 2px 6px 2px;
+	border-bottom : 1px solid #6786A6;
+	border-top : 1px solid #6786A6;
+	border-right : 1px solid #6786A6;
+	border-left : 1px solid #6786A6;
+	background-color : #F7F9FA;
+}
+.news {
+	border-bottom : 1px solid #C6CFD9;
+	border-top : 1px solid #C6CFD9;
+	border-right : 1px solid #C6CFD9;
+	border-left : 1px solid #C6CFD9;
+	width: 377px;
+	height: 100%;
+}
+.new_ttl {
+	font : bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #046ACF;
+	padding : 0px 0px 10px 0px;
+}
+.new_body {
+	font : 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 15px;
+}
+.new_princ {
+	padding : 0px 20px 0px 20px;
+}
+.vtb_box {
+	padding : 0px 0px 0px 0px;
+	border-bottom : 1px solid #E2E7EC;
+	border-top : 1px solid #E2E7EC;
+	border-right : 1px solid #E2E7EC;
+	border-left : 1px solid #E2E7EC;
+	width: 356px;
+}
+.vtb_opt {
+	width: 330px;
+	text-align: left;
+	margin-bottom: 8px;
+	font : 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.vtb_opt a {
+	text-decoration: none;
+	color: #000000;
+}
+.vtb_opt a:hover {
+	text-decoration: none;
+	color: #546D88;
+}
+
+.opt_link {
+	width: 730px;
+	text-align: center;
+	margin-bottom: 8px;
+	font : 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.opt_link a {
+	text-decoration: none;
+	color: #000000;
+}
+.opt_link a:hover {
+	text-decoration: none;
+	color: #546D88;
+}
+
+#menu {
+	width: 137px;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	left: -4px;
+}
+
+.lowText { text-decoration: none; color: #315C87; font: bold 10px Verdana, Arial, Helvetica }
+.highText { text-decoration: none; color: #315C87; font: bold 10px Verdana, Arial, Helvetica }
+.itemBorder { border: 1px solid #6786A6 }
+.itemBorderBlank { border: 1px solid #E5EAEF }
+.buttonText { text-decoration: none; color: #FFCC99; font: Bold 12px Arial, Helvetica }
+.buttonHover { text-decoration: none; color: #99CCFF; font: Bold 12px Arial, Helvetica; padding: 1px }
+.buttonBorder { border: 1px outset #339966 }
+.buttonBorder { border: 1px outset #339966 }
+.border_menu_off { border: 1px solid #E5EAEF }
+.border_menu_on { border: 1px solid #6786A6 }
+
+.caixa {
+	padding : 2px 2px 2px 2px;
+	border-bottom : 1px solid #516A86;
+	border-top : 1px solid #516A86;
+	border-right : 1px solid #516A86;
+	border-left : 1px solid #516A86;
+	background-color : #F5F5F5;
+	font : 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.borda {  padding-top: 1px; border-color: #CCCCCC ; border-style: dotted; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+
+textarea {
+	border-bottom : 1px solid #516A86;
+	border-top : 1px solid #516A86;
+	border-right : 1px solid #516A86;
+	border-left : 1px solid #516A86;
+	background-color : #F5F5F5;
+	font : 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+
+    .dia {font-family: helvetica, arial; font-size: 8pt; color: #FFFFFF}
+    .data {font-family: helvetica, arial; font-size: 8pt; text-decoration:none; color:#191970}
+    .mes {font-family: helvetica, arial; font-size: 8pt}
+    .Cabecalho_Calendario {font-family: helvetica, arial; font-size: 10pt; color: #000000; text-decoration:none; font-weight:bold}
+    
+/*select {
+	padding : 2px 2px 2px 2px;
+	border-bottom : 1px solid #516A86;
+	border-top : 1px solid #516A86;
+	border-right : 1px solid #516A86;
+	border-left : 1px solid #516A86;
+	background-color : #F5F5F5;
+	font : 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 18px;
+	width: 50;
+}
+
+select2 {
+	padding : 2px 2px 2px 2px;
+	border-bottom : 1px solid #516A86;
+	border-top : 1px solid #516A86;
+	border-right : 1px solid #516A86;
+	border-left : 1px solid #516A86;
+	background-color : #F5F5F5;
+	font : 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 18px;
+	width: 100%;
+}*/
